@@ -33,7 +33,8 @@ public class MainActivity extends AppCompatActivity {
 
         Intent intent = getIntent();
         if (intent != null) {
-//            startActivityForResult(intent, 3);
+            String dir = intent.getStringExtra("output");
+
         }
         int a = 1;
 //        Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);

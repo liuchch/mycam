@@ -21,12 +21,6 @@
         android:text="选择照片"
         />
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="on3Clicked"
-        android:text="选择相机"
-        />
 
     <ImageView
         android:id="@+id/iv_preView"
